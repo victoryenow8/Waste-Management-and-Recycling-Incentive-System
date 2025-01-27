@@ -60,6 +60,11 @@ plan:
             path: contracts/recycling-center.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: smart-bin
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/smart-bin.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: waste-collection
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/waste-collection.clar
